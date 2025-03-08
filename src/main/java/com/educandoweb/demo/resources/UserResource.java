@@ -14,7 +14,7 @@ public class UserResource {
 	//Criando a funcao para acessar usuarios
 	@GetMapping
 	public ResponseEntity<User> findall(){
-		User u = new User(1L,"Maria", "maria@gmail.com","999999","12345");
+		User u = new User("Maria", "maria@gmail.com","999999","12345");
 		return ResponseEntity.ok().body(u);
 	}
 
