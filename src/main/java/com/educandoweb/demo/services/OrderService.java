@@ -4,12 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+
 import org.springframework.stereotype.Service;
 
 import com.educandoweb.demo.entities.Order;
 import com.educandoweb.demo.repositories.OrderRepository;
-import com.educandoweb.demo.repositories.UserRepository;
 
 @Service
 public class OrderService {
